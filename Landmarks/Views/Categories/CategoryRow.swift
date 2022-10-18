@@ -24,6 +24,7 @@ struct CategoryRow: View {
             }
             .frame(height: 185)
         }
+        .padding(.top, 20)
     }
 }
 

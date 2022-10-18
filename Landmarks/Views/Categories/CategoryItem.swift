@@ -13,6 +13,8 @@ struct CategoryItem: View {
             Text(landmark.name)
                 .foregroundColor(.primary)
                 .font(.caption)
+                .padding(.top, 2)
+                .padding(.bottom, 10)
         }
         .padding(.leading, 15)
     }
